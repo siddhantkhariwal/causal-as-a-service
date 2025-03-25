@@ -1,0 +1,13 @@
+strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}

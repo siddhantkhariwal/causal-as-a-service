@@ -1,0 +1,482 @@
+Target,TreatmentVariables,TableName,DAG,ModelName,CausalEstimate,RefutationNewEstimate,p_value,EstimationMethod,Version,ModelCreationDate,IdentifiedestimandFile,ModelURL,IdentifiedEstimandFile
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v1.pkl,142.54479208101267,0,0,backdoor.linear_regression,1,2023-12-28,,,GMV_cur_identified_estimand_v1.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v2.pkl,142.54479208101267,0,0,backdoor.linear_regression,2,2023-12-28,,,GMV_cur_identified_estimand_v2.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v3.pkl,142.54479208101267,0,0,backdoor.linear_regression,3,2023-12-28,,,GMV_cur_identified_estimand_v3.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v4.pkl,142.54479208101267,0,0,backdoor.linear_regression,4,2024-02-12,,,GMV_cur_identified_estimand_v4.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v5.pkl,142.54479208101267,0,0,backdoor.linear_regression,5,2024-02-12,,,GMV_cur_identified_estimand_v5.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v6.pkl,142.54479208101267,0,0,backdoor.linear_regression,6,2024-02-12,,,GMV_cur_identified_estimand_v6.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v7.pkl,142.54479208101267,0,0,backdoor.linear_regression,7,2024-02-12,,,GMV_cur_identified_estimand_v7.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v8.pkl,142.54479208101267,0,0,backdoor.linear_regression,8,2024-02-12,,,GMV_cur_identified_estimand_v8.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v9.pkl,142.54479208101267,0,0,backdoor.linear_regression,9,2024-02-12,,,GMV_cur_identified_estimand_v9.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v10.pkl,142.54479208101267,0,0,backdoor.linear_regression,10,2024-02-12,,,GMV_cur_identified_estimand_v10.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v11.pkl,142.54479208101267,0,0,backdoor.linear_regression,11,2024-02-12,,,GMV_cur_identified_estimand_v11.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v12.pkl,142.54479208101267,0,0,backdoor.linear_regression,12,2024-02-12,,,GMV_cur_identified_estimand_v12.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v13.pkl,142.54479208101267,0,0,backdoor.linear_regression,13,2024-02-12,,,GMV_cur_identified_estimand_v13.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v14.pkl,142.54479208101267,0,0,backdoor.linear_regression,14,2024-02-14,,,GMV_cur_identified_estimand_v14.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v15.pkl,142.54479208101267,0,0,backdoor.linear_regression,15,2024-02-16,,,GMV_cur_identified_estimand_v15.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v16.pkl,-594.4979114917662,0,0,backdoor.linear_regression,16,2024-02-16,,,GMV_cur_identified_estimand_v16.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v17.pkl,-150.67925800496388,0,0,backdoor.linear_regression,17,2024-02-16,,,GMV_cur_identified_estimand_v17.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v18.pkl,30.338005470289005,0,0,backdoor.linear_regression,18,2024-02-16,,,GMV_cur_identified_estimand_v18.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v19.pkl,30.338005470289005,0,0,backdoor.linear_regression,19,2024-02-16,,,GMV_cur_identified_estimand_v19.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v20.pkl,1507.393049051842,0,0,backdoor.linear_regression,20,2024-02-19,,,GMV_cur_identified_estimand_v20.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v21.pkl,1507.393049051842,0,0,backdoor.linear_regression,21,2024-03-11,,,GMV_cur_identified_estimand_v21.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v22.pkl,1507.393049051842,0,0,backdoor.linear_regression,22,2024-03-11,,,GMV_cur_identified_estimand_v22.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v23.pkl,1507.393049051842,0,0,backdoor.linear_regression,23,2024-03-11,,,GMV_cur_identified_estimand_v23.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v24.pkl,1507.393049051842,0,0,backdoor.linear_regression,24,2024-03-11,,,GMV_cur_identified_estimand_v24.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v25.pkl,1507.3930490518417,0,0,backdoor.linear_regression,25,2024-09-18,,,GMV_cur_identified_estimand_v25.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v26.pkl,1507.3930490518417,0,0,backdoor.linear_regression,26,2024-09-18,,,GMV_cur_identified_estimand_v26.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v27.pkl,1507.3930490518417,0,0,backdoor.linear_regression,27,2024-09-18,,,GMV_cur_identified_estimand_v27.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v28.pkl,1507.3930490518417,0,0,backdoor.linear_regression,28,2024-09-18,,,GMV_cur_identified_estimand_v28.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v29.pkl,1507.3930490518417,0,0,backdoor.linear_regression,29,2024-09-18,,,GMV_cur_identified_estimand_v29.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v30.pkl,1507.3930490518417,0,0,backdoor.linear_regression,30,2024-09-18,,,GMV_cur_identified_estimand_v30.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v31.pkl,1507.3930490518417,0,0,backdoor.linear_regression,31,2024-09-18,,,GMV_cur_identified_estimand_v31.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v32.pkl,17.44235979611608,0,0,backdoor.linear_regression,32,2024-09-18,,,GMV_cur_identified_estimand_v32.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v33.pkl,-102.90008932221735,0,0,backdoor.linear_regression,33,2024-09-18,,,GMV_cur_identified_estimand_v33.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v34.pkl,1507.3930490518417,0,0,backdoor.linear_regression,34,2024-09-18,,,GMV_cur_identified_estimand_v34.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v35.pkl,17.44235979611608,0,0,backdoor.linear_regression,35,2024-09-18,,,GMV_cur_identified_estimand_v35.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v36.pkl,1507.3930490518417,0,0,backdoor.linear_regression,36,2024-09-18,,,GMV_cur_identified_estimand_v36.pkl
+GMV_cur,"oos, trf_avg, atc, latency, perfect_order",C:\Users\aman.jhakra\Documents\Causal as a Service\data\input\input_data.csv,"strict digraph {
+GMV_cur;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> GMV_cur;
+trf_avg -> GMV_cur;
+atc -> GMV_cur;
+latency -> GMV_cur;
+perfect_order -> GMV_cur;
+}",C:\Users\aman.jhakra\Documents\Causal as a Service\data\..\model\GMV_cur_Causal_model_v37.pkl,1507.3930490518417,0,0,backdoor.linear_regression,37,2025-03-24,,,GMV_cur_identified_estimand_v37.pkl

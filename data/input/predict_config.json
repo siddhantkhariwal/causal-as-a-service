@@ -1,0 +1,12 @@
+{
+	"data": {
+		"target": "retention",
+		"data_path": "C:\\Users\\pushpesh.pallav\\Downloads\\OneDrive_2023-12-11\\Causal as a Service Model\\Causal as a Service\\data\\input\\",
+		"data_output_path":"C:\\Users\\pushpesh.pallav\\Downloads\\OneDrive_2023-12-11\\Causal as a Service Model\\Causal as a Service\\data\output\\",
+		"model_output_path":"C:\\Users\\pushpesh.pallav\\Downloads\\OneDrive_2023-12-11\\Causal as a Service Model\\Causal as a Service\\model\\"
+	},
+	"model": {
+		"version":1
+	},
+	"analyse":true
+}

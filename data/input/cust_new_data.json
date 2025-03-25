@@ -1,0 +1,8 @@
+{
+    "oos": [0.1],
+    "trf_avg": [1],
+    "atc": [20],
+    "latency": [1],
+    "perfect_order": [0]
+
+}

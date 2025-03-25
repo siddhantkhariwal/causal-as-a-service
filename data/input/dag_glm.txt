@@ -1,0 +1,13 @@
+strict digraph {
+retention;
+oos;
+trf_avg;
+atc;
+latency;
+perfect_order;
+oos -> retention;
+trf_avg -> retention;
+atc -> retention;
+latency -> retention;
+perfect_order -> retention;
+}

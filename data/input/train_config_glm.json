@@ -1,0 +1,19 @@
+{
+	"data": {
+		"target":"retention",
+		"dag": "",
+		"dag_path": "C:\\Users\\pushpesh.pallav\\Downloads\\OneDrive_2023-12-11\\Causal as a Service Model\\Causal as a Service\\data\\input\\dag_glm.txt",
+		"target_upper_cap": 4000,
+		"target_lower_cap": 0,
+		"data_path": "C:\\Users\\pushpesh.pallav\\Downloads\\OneDrive_2023-12-11\\Causal as a Service Model\\Causal as a Service\\data\\input\\input_data.csv",
+		"data_output_path":"C:\\Users\\pushpesh.pallav\\Downloads\\OneDrive_2023-12-11\\Causal as a Service Model\\Causal as a Service\\data\\output\\",
+		"model_output_path":"C:\\Users\\pushpesh.pallav\\Downloads\\OneDrive_2023-12-11\\Causal as a Service Model\\Causal as a Service\\model\\"
+	},
+	"methods": {
+		"estimation_method": "backdoor.generalized_linear_model",
+		"refutation_method": "data_subset_refuter"
+	},
+	"model": {
+		"save":true
+	}
+}

@@ -1,0 +1,17 @@
+{
+    "data": {
+        "target": "GMV_cur",
+		"dag": "",
+		"dag_path": "data\\input\\dag_linear.txt",
+		"target_upper_cap": 4000,
+		"target_lower_cap": 0,
+		"data_path": "data\\input\\input_data.csv",
+		"data_output_path":"data\\output",
+		"model_output_path":"model"
+    },
+    "model": {
+        "version": 1
+    },
+    "old_data": "",
+    "new_data": ""
+}
