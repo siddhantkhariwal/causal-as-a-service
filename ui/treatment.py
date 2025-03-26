@@ -29,12 +29,13 @@ def predict(
     with output_widget:
         st.markdown("## New Variables")
         col_1, col_2 = st.columns(2)
+        color_discrete_map = {col.capitalize(): "blue", "Target": "orange"}
         with col_1:
             st.markdown("### Treatment Variable")
 
             df = pd.DataFrame(
                 dict(
-                    series = np.concatenate((["a"]*len(old[col]), ["b"]*len(new[col]))),
+                    series = np.concatenate(([col.capitalize()]*len(old[col]), ["Target"]*len(new[col]))),
                     data = np.concatenate((old[col], new[col]))
                 )
             )
@@ -51,14 +52,14 @@ def predict(
 
             st.plotly_chart(plt)
             st.markdown(
-                f"### Mean: {round(new[col].mean(), 3)}\t\t\t Std Dev: {round(new[col].std(), 3)}"
+                f"### Mean: {round(new[col].mean(), 2)}\t\t\t Std Dev: {round(new[col].std(), 2)}"
             )
         with col_2:
             st.markdown("### Target Variable")
-
+            color_discrete_map = {col.capitalize(): "blue", "Target": "orange"}
             df = pd.DataFrame(
                 dict(
-                    series = np.concatenate((["a"]*len(old[f"{target}_pred"]), ["b"]*len(new[f"{target}_pred"]))),
+                    series = np.concatenate(([col.capitalize()]*len(old[f"{target}_pred"]), ["Target"]*len(new[f"{target}_pred"]))),
                     data = np.concatenate((old[f"{target}_pred"], new[f"{target}_pred"]))
                 )
             )
@@ -79,7 +80,7 @@ def predict(
             # fig.update_layout(title_text='Old vs New', barmode='overlay')
             st.plotly_chart(plt)
             st.markdown(
-                f"### Mean: {round(new[f'{target}_pred'].mean(), 3)}\t\t\t Std Dev: {round(new[f'{target}_pred'].std(), 3)}"
+                f"### Mean: {round(new[f'{target}_pred'].mean(), 2)}\t\t\t Std Dev: {round(new[f'{target}_pred'].std(), 2)}"
             )
 
 
@@ -100,14 +101,14 @@ def analyze(
             plt = px.histogram(old[col], nbins = bins)
             st.plotly_chart(plt)
             st.markdown(
-                f"### Mean: {round(old[col].mean(), 3)}\t\t\t Std Dev: {round(old[col].std(), 3)}"
+                f"### Mean: {round(old[col].mean(), 2)}\t\t\t Std Dev: {round(old[col].std(), 2)}"
             )
         with col_2:
             st.markdown("### Target Variable")
             plt = px.histogram(old[f"{target}_pred"], nbins = bins)
             st.plotly_chart(plt)
             st.markdown(
-                f"### Mean: {round(old[f'{target}_pred'].mean(), 3)}\t\t\t Std Dev: {round(old[f'{target}_pred'].std(), 3)}"
+                f"### Mean: {round(old[f'{target}_pred'].mean(), 2)}\t\t\t Std Dev: {round(old[f'{target}_pred'].std(), 2)}"
             )
 
     

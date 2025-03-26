@@ -59,6 +59,7 @@ def customer_widget(data_path: str, backend: "CustomerScenarios"):
         )
         if "customer_analyze_active" not in st.session_state:
             st.session_state["customer_analyze_active"] = False
+
         if st.session_state["customer_analyze_active"]:
             # TODO: Get columns
             with open(os.path.join(data_path, "input/customer_config.json"), "r") as f:
@@ -67,7 +68,12 @@ def customer_widget(data_path: str, backend: "CustomerScenarios"):
             config["data"]["target"] = target
             results = backend.scenario_creation([config], analyze=True)
             first_customer = pd.DataFrame(results["predictions"])
+
+            first_customer = first_customer.round(2)
+
             coeffs = pd.DataFrame(results["coeffs"])
+
+            
             stats = results["stats"]
 
             first_customer.to_csv(
@@ -128,4 +134,5 @@ def customer_widget(data_path: str, backend: "CustomerScenarios"):
                     )
 
                     st.markdown("### Predictions")
+                    table = table.round(2)
                     st.table(table)
